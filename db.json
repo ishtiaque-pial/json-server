@@ -1,11 +1,33 @@
 {
-  "posts": [
-    {
-      "id": 2,
-      "title": "hello"
+  "posts": {
+    "data": [
+      {
+        "id": 1,
+        "attributes": {
+          "content": "",
+          "author": {
+            "data": {
+              "id": 2,
+              "attributes": {
+                "username": ""
+              }
+            }
+          },
+          "imageContent": {
+            "data": {
+              "attributes": {
+                "url": ""
+              }
+            }
+          }
+        }
+      }
+    ],
+    "meta": {
+      "page": 1,
+      "pageSize": 2,
+      "pageCount": 3,
+      "total": 4
     }
-  ],
-  "profile": {
-    "name": "typicode"
   }
 }
